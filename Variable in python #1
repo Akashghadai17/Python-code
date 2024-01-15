@@ -1,0 +1,8 @@
+#INTRODUCING VARIABLE:
+#VAriable used to store data and it is a memory loaction.
+#private variable=_name
+#stongly private varibale=__name
+#Special purpose varibale=__name__
+anyname=input("Enter your name")
+print("Hey ",anyname)
+
