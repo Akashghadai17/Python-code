@@ -1,0 +1,78 @@
+#Data type is 3 types 
+#1)Numeric:Integer Float Complex 
+#2)Sequence:String List Tupple
+#3)Boolean:True False
+
+#1)Numeric
+#Integer:
+a=10
+#float
+b=20.0
+#complex
+c=10+20j
+
+#2)Sequence
+#String
+
+name="Akash"
+#index acess
+print(name[4])
+#string formatting........................
+print("Hello {} ".format(name))
+print("Hello",name)
+print("Hello %s"%(name))
+#string operations
+#1)concatenation...........................
+a="Akash"
+b="Ghadai"
+print("Hello "+a+" "+b)
+#2)Repetation
+print(a*5)
+#3)[]Scice................................
+print(a[3])
+#4)[:]Range slice........................
+print(a[1:3])
+print(a[:4])
+print(a[3:])
+#5)in membership..............................
+x='k' in a
+print(x) #It return true or false 
+#6)not in membership.........................
+x='k' not in a
+print(x)
+#7)string split method (IT COVERT STRING TO LIST)
+name1=a.split()
+print(name1)
+
+#String METHODS
+#1)CAPITALIZE(This method convert the first charector of string to upper letter)
+name="akash"
+print(name.capitalize())
+#2)UPPER(It convert String all charector to capital case)
+print(name.upper())
+#3)lower(it covert string all charector to lower case)
+print(name.lower())
+#4)title(It convert string with the first charector of each word converted to uppercase)
+song="teri ye addah janiye tujhe ta pata"
+print(song.title())
+#5)find(This method find the first occurrence of a substring in another string id not found then the method return -1 )
+print(song.find('tujhe'))
+#6)index(This method similar to finf() but throws a valuerror if the substring is not found. )
+print(song.index('addah'))
+#7)count(This method returns the number of occurences of a substring in givenstring )
+print(song.count('ye'))
+#8)isalpha(This method returns true if all the charectors in a strng are allphabetic (a-z or A-Z), other returns false. )
+print(song.isalpha())
+#9)isdigit(This method returns true if all the charectors in a strng are digit or not! )
+print(song.isdigit())
+#10)islowerr(This method returns true if all the charectors in a strng are lowercase or not! )
+print(song.islower())
+#11)isupper(This method returns true if all the charectors in a strng are upper not not! )
+print(song.isupper())
+#12)string split method (IT COVERT STRING TO LIST)
+a="Akash"
+name1=a.split()
+print(name1)
+#14)strip()-IT REMOVE ALL SPACE IN STRING
+a = "Hello, World! "
+print(a.strip())
