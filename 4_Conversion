@@ -1,0 +1,22 @@
+#It convert one type of value to another type
+#Example:float to int
+a=10.7 #A is a float variable
+x=int(a) #x in variable of conversion of value float to int
+print(x)
+#all datatype convert like this......
+#Example2
+b=20
+c=float(b)#It convert integer to float
+print(c)
+
+#Example3
+
+d=30.00908
+e=int(d)
+print(e)
+
+#example4
+
+a1=40+50
+b2=complex(a1)
+print(b2)
