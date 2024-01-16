@@ -1,0 +1,51 @@
+#creating set
+s1={1,'Akash',7005}#SET ALLOW diffrent type of data
+print(s1)
+#check type
+print(type(s1))
+s2={20,30,40,50}
+print(s2)
+#set function
+#set()(Which set object can be constructed out of any sequence like string,list,tupple object. )
+s3=set("Hello my name is akash ghadai")
+print(s3)
+#list to set
+s4=set([10,20,30,40,50,60,70])
+print(s4)
+#tupple to set
+s5=set((10,20,30,40,50,60,70))
+print(s5)
+#set modify 
+# 1)add()Add items in set
+s7={"java","c","c++"}
+s7.add("python")
+print(s7) 
+# 2)update()update set item
+s7.update(["Basic"])
+print(s7)
+# 3)clear()Its clear all set items
+s1.clear()
+print(s1)
+# 4)copy()copy one set and peast in another set
+s1=s2.copy()
+print(s1)
+# 5)discard()Delet item fron set
+s1.discard(20)
+print(s1)
+# 5)remove()
+s1.remove(30)
+print(s1)
+# SET OPERATIONS
+# 1)union (|)
+print(s1|s2)
+print(s1.union(s2))
+#2)Intersection
+print(s1&s2)
+print(s1.intersection(s2))
+#3)Diffrence
+print(s1.difference(s2))
+a1={20,30,40}
+a2={30,40,50}
+#4 )Symmetric Diffrence
+print(s1^s2)
+print(s1.symmetric_difference(s2))
