@@ -1,0 +1,85 @@
+#creating a list
+name=["Akash","Alok","Abhijeet","Pranaya","Apu"]
+title=["Ghadai","Purohit","Panda","Bisoyee","Nayak"]
+
+#LIST OPERATIONS 
+# 1) CONCATENATION
+print(name+title)
+#2 )REPETITION
+print(name*3)
+#3 )[]SCICE
+print(name[2])
+#4 )[:]RANGE
+print(name[:4])
+#5 )IN MEMBERSHIP
+print("Akash" in name)
+#6 )NOT IN MEMBER
+print("Akash" not in name)
+#BUILT IN FUNCTIONS COMMON TO LISTS AND TUPLES
+#1 )len()
+print(len(name))
+#2 )max()
+print(max(name))
+#3 )min()
+print(min(name))
+
+#MANIPUTATING LIST & UTILIZE FUNCTIONS
+#1 )append()
+print(name.append("Abhinash"))
+print(name)
+#2 )insert() INDEX NUMBER IS REQUIRED FOR INSERTING DATA IN YOUR INDEX NUMBER
+print(name.insert(3,"Biswajeet"))
+print(name)
+#3 )remove()
+print(name.remove("Abhinash"))
+print(name)
+#4 )pop() REMOVE LAST ITEM IN LIst
+print(name.pop())
+print(name)   
+#5 )reverse()
+print(name.reverse())
+print(name)
+#6 )sort
+name.sort()
+print(name)
+
+#sort discending
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+
+#CONVERTING ONE SEQUENCE TYPE TO ANOTHER
+#1)LIST TO TUPPLE
+tuple(name)
+print(name)
+#2)TUPPLE TO LIST
+list(name)
+print(name) 
+
+#LIST TO STRING
+#LIST JOIN METHOD
+def listtostring(s):
+    str=" "
+    return(str.join(s))
+s=["A","K","A","S","H"]
+print(listtostring(s))
+
+
+#Loop Through the Index Numbers
+#Print all items by referring to their index number:
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+#Using a While Loop
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+#Looping Using List Comprehension
+#A short hand for loop that will print all items in a list:
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+
+
